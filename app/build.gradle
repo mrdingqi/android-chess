@@ -6,8 +6,8 @@ android {
             storeFile file('../../android-keystore')
         }
     }
-    compileSdkVersion 31
-    buildToolsVersion '28.0.3'
+    compileSdkVersion 34
+    buildToolsVersion '30.0.3'
     defaultConfig {
         applicationId "jwtc.android.chess"
         minSdkVersion 21
@@ -37,6 +37,7 @@ android {
             path file('../native/project/jni/Android.mk')
         }
     }
+    ndkVersion '21.4.7075529'
 }
 
 dependencies {
